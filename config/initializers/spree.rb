@@ -10,7 +10,7 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   config.site_name = "Интернет-ветрина автомобильных бортовых компьютеров"
-  config.use_s3 = true
+  config.use_s3 = false
   config.s3_bucket = 'hipc'
   config.s3_access_key = "AKIAJPNLN2VOL4H5CH5A"
   config.s3_secret = "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"
