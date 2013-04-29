@@ -14,6 +14,9 @@ Spree.config do |config|
   config.s3_bucket = 'hipc'
   config.s3_access_key = "AKIAJPNLN2VOL4H5CH5A"
   config.s3_secret = "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"
+  
+  config.attachment_url = ":s3_eu_url"
+    config.s3_host_alias = "s3-eu-west-1.amazonaws.com"
 end
 
 Spree.user_class = "Spree::User"
